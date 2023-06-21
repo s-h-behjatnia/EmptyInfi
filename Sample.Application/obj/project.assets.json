@@ -1,0 +1,110 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Sample.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Sample.Domain.Shared": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Sample.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Sample.Domain.dll": {}
+        }
+      },
+      "Sample.Domain.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Sample.Domain.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Sample.Domain.Shared.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Sample.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Sample.Domain/Sample.Domain.csproj",
+      "msbuildProject": "../Sample.Domain/Sample.Domain.csproj"
+    },
+    "Sample.Domain.Shared/1.0.0": {
+      "type": "project",
+      "path": "../Sample.Domain.Shared/Sample.Domain.Shared.csproj",
+      "msbuildProject": "../Sample.Domain.Shared/Sample.Domain.Shared.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Sample.Domain >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\h.behjatnia\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Project\\Test\\Sample\\Sample.Application\\Sample.Application.csproj",
+      "projectName": "Sample.Application",
+      "projectPath": "C:\\Project\\Test\\Sample\\Sample.Application\\Sample.Application.csproj",
+      "packagesPath": "C:\\Users\\h.behjatnia\\.nuget\\packages\\",
+      "outputPath": "C:\\Project\\Test\\Sample\\Sample.Application\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\h.behjatnia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "http://devops/NOECollection/_packaging/NomatecFeed/nuget/v3/index.json": {},
+        "http://nuget.nomatec.net/nuget": {},
+        "https://www.nuget.org/api/v2/": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Project\\Test\\Sample\\Sample.Domain\\Sample.Domain.csproj": {
+              "projectPath": "C:\\Project\\Test\\Sample\\Sample.Domain\\Sample.Domain.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
