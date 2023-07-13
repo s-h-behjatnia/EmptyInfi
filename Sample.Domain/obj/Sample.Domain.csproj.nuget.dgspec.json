@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Project\\Test\\Sample\\Sample.Domain\\Sample.Domain.csproj": {}
+    "C:\\Project\\EmptyInfi\\Sample.Domain\\Sample.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Project\\Test\\Sample\\Sample.Domain.Shared\\Sample.Domain.Shared.csproj": {
+    "C:\\Project\\EmptyInfi\\Sample.Domain.Shared\\Sample.Domain.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Project\\Test\\Sample\\Sample.Domain.Shared\\Sample.Domain.Shared.csproj",
+        "projectUniqueName": "C:\\Project\\EmptyInfi\\Sample.Domain.Shared\\Sample.Domain.Shared.csproj",
         "projectName": "Sample.Domain.Shared",
-        "projectPath": "C:\\Project\\Test\\Sample\\Sample.Domain.Shared\\Sample.Domain.Shared.csproj",
-        "packagesPath": "C:\\Users\\h.behjatnia\\.nuget\\packages\\",
-        "outputPath": "C:\\Project\\Test\\Sample\\Sample.Domain.Shared\\obj\\",
+        "projectPath": "C:\\Project\\EmptyInfi\\Sample.Domain.Shared\\Sample.Domain.Shared.csproj",
+        "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
+        "outputPath": "C:\\Project\\EmptyInfi\\Sample.Domain.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\h.behjatnia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,9 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://devops/NOECollection/_packaging/NomatecFeed/nuget/v3/index.json": {},
-          "http://nuget.nomatec.net/nuget": {},
-          "https://www.nuget.org/api/v2/": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
@@ -60,17 +58,17 @@
         }
       }
     },
-    "C:\\Project\\Test\\Sample\\Sample.Domain\\Sample.Domain.csproj": {
+    "C:\\Project\\EmptyInfi\\Sample.Domain\\Sample.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Project\\Test\\Sample\\Sample.Domain\\Sample.Domain.csproj",
+        "projectUniqueName": "C:\\Project\\EmptyInfi\\Sample.Domain\\Sample.Domain.csproj",
         "projectName": "Sample.Domain",
-        "projectPath": "C:\\Project\\Test\\Sample\\Sample.Domain\\Sample.Domain.csproj",
-        "packagesPath": "C:\\Users\\h.behjatnia\\.nuget\\packages\\",
-        "outputPath": "C:\\Project\\Test\\Sample\\Sample.Domain\\obj\\",
+        "projectPath": "C:\\Project\\EmptyInfi\\Sample.Domain\\Sample.Domain.csproj",
+        "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
+        "outputPath": "C:\\Project\\EmptyInfi\\Sample.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\h.behjatnia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -78,16 +76,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://devops/NOECollection/_packaging/NomatecFeed/nuget/v3/index.json": {},
-          "http://nuget.nomatec.net/nuget": {},
-          "https://www.nuget.org/api/v2/": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Project\\Test\\Sample\\Sample.Domain.Shared\\Sample.Domain.Shared.csproj": {
-                "projectPath": "C:\\Project\\Test\\Sample\\Sample.Domain.Shared\\Sample.Domain.Shared.csproj"
+              "C:\\Project\\EmptyInfi\\Sample.Domain.Shared\\Sample.Domain.Shared.csproj": {
+                "projectPath": "C:\\Project\\EmptyInfi\\Sample.Domain.Shared\\Sample.Domain.Shared.csproj"
               }
             }
           }
