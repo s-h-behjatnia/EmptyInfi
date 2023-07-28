@@ -1,4 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
+using Sample.Application;
+using Sample.Core;
 
 namespace Sample.Host.Controllers
 {
@@ -6,10 +8,15 @@ namespace Sample.Host.Controllers
     [ApiController]
     public class SampleController : ControllerBase
     {
+        private SampleService _sampleService => Extentions.GetService<SampleService>();
+
+        public SampleController()
+        { }
+
         [HttpGet]
-        public IActionResult GeName()
+        public async Task<IActionResult> GeName()
         {
-            return Ok(new { Name = "farshadbehjatnia" });
+            return await Task.Run(() => { return Ok(new { Name = _sampleService.GeName() }); });
         }
     }
 }

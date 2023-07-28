@@ -5,7 +5,7 @@ namespace Sample.Core
     {
 
     }
-    public class BaseQueryRepository
+    public abstract class BaseQueryRepository
     {
     }
 }
