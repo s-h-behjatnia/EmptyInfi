@@ -1,4 +1,7 @@
 
+using Microsoft.EntityFrameworkCore;
+using Sample.EntityFramework.Queries;
+
 namespace Sample.Host
 {
     public class Startup
@@ -16,6 +19,9 @@ namespace Sample.Host
             var config = _appConfiguration.GetSection("App");
             services.AddSingleton(config);
             services.ConfigureServices();
+            services.RegisterQueryDbContext(_appConfiguration);
+            services.RegisterCommandDbContext(_appConfiguration);
+            services.RegisterQueryRepository();
         }
 
         public void Configure(IApplicationBuilder app, ILoggerFactory loggerFactory)

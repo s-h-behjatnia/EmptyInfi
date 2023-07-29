@@ -7,12 +7,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.9" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Sample.Application\Sample.Application.csproj" />
     <ProjectReference Include="..\Sample.Domain\Sample.Domain.csproj" />
+    <ProjectReference Include="..\Sample.EntityFramework.Queries\Sample.EntityFramework.Queries.csproj" />
+    <ProjectReference Include="..\Sample.EntityFramework.Commands\Sample.EntityFramework.Commands.csproj" />
   </ItemGroup>
 
 </Project>
