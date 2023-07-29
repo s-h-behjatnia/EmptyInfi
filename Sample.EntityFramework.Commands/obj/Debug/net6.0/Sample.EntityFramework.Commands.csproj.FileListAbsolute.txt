@@ -1,5 +1,0 @@
-C:\Project\Test\Sample\Sample.EntityFramework.Commands\obj\Debug\net6.0\Sample.EntityFramework.Commands.csproj.AssemblyReference.cache
-C:\Project\Test\Sample\Sample.EntityFramework.Commands\obj\Debug\net6.0\Sample.EntityFramework.Commands.GeneratedMSBuildEditorConfig.editorconfig
-C:\Project\Test\Sample\Sample.EntityFramework.Commands\obj\Debug\net6.0\Sample.EntityFramework.Commands.AssemblyInfoInputs.cache
-C:\Project\Test\Sample\Sample.EntityFramework.Commands\obj\Debug\net6.0\Sample.EntityFramework.Commands.AssemblyInfo.cs
-C:\Project\Test\Sample\Sample.EntityFramework.Commands\obj\Debug\net6.0\Sample.EntityFramework.Commands.csproj.CoreCompileInputs.cache
